@@ -1,0 +1,44 @@
+{
+  "name": "holiday-management",
+  "version": "1.0.0",
+  "author's contact": "rpaluchowski77@gmail.com",
+  "description": "This is a holiday management web app built in MERN stack",
+  "main": "server.js",
+  "type": "module",
+  "nodemonConfig": {
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "scripts": {
+    "start": "nodemon Backend/server",
+    "server": "node Backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobPaluchowski"
+  },
+  "author": "Robert Paluchowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobPaluchowski"
+  },
+  "homepage": "https://github.com/bobPaluchowski",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.30.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {}
+}
